@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		D1599571297527FA00C3B72A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1599570297527FA00C3B72A /* AppDelegate.swift */; };
 		D1599573297527FA00C3B72A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1599572297527FA00C3B72A /* SceneDelegate.swift */; };
-		D1599575297527FA00C3B72A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1599574297527FA00C3B72A /* ViewController.swift */; };
+		D1599575297527FA00C3B72A /* CreateEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1599574297527FA00C3B72A /* CreateEmployeeViewController.swift */; };
 		D1599578297527FA00C3B72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1599576297527FA00C3B72A /* Main.storyboard */; };
 		D159957B297527FA00C3B72A /* OneToOneRelationDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1599579297527FA00C3B72A /* OneToOneRelationDatabase.xcdatamodeld */; };
 		D159957D297527FC00C3B72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D159957C297527FC00C3B72A /* Assets.xcassets */; };
 		D1599580297527FC00C3B72A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D159957E297527FC00C3B72A /* LaunchScreen.storyboard */; };
+		D159958B2975288B00C3B72A /* PersistanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159958A2975288B00C3B72A /* PersistanceStorage.swift */; };
+		D159959029752D6000C3B72A /* CDPassport+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159958C29752D6000C3B72A /* CDPassport+CoreDataClass.swift */; };
+		D159959129752D6000C3B72A /* CDPassport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159958D29752D6000C3B72A /* CDPassport+CoreDataProperties.swift */; };
+		D159959229752D6000C3B72A /* CDEmployee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159958E29752D6000C3B72A /* CDEmployee+CoreDataClass.swift */; };
+		D159959329752D6000C3B72A /* CDEmployee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159958F29752D6000C3B72A /* CDEmployee+CoreDataProperties.swift */; };
+		D159959629752DE800C3B72A /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159959529752DE800C3B72A /* Employee.swift */; };
+		D159959829752E2900C3B72A /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159959729752E2900C3B72A /* Passport.swift */; };
+		D159959B2975310300C3B72A /* EmployeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159959A2975310300C3B72A /* EmployeeRepository.swift */; };
+		D159959D2975311800C3B72A /* PassportRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159959C2975311800C3B72A /* PassportRepository.swift */; };
+		D159959F297531D600C3B72A /* BaseReposittrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D159959E297531D600C3B72A /* BaseReposittrey.swift */; };
+		D15995A12975681300C3B72A /* EmployeeManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15995A02975681300C3B72A /* EmployeeManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D159956D297527FA00C3B72A /* OneToOneRelationDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneToOneRelationDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1599570297527FA00C3B72A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1599572297527FA00C3B72A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1599574297527FA00C3B72A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1599574297527FA00C3B72A /* CreateEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmployeeViewController.swift; sourceTree = "<group>"; };
 		D1599577297527FA00C3B72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D159957A297527FA00C3B72A /* OneToOneRelationDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OneToOneRelationDatabase.xcdatamodel; sourceTree = "<group>"; };
 		D159957C297527FC00C3B72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D159957F297527FC00C3B72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1599581297527FC00C3B72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D159958A2975288B00C3B72A /* PersistanceStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceStorage.swift; sourceTree = "<group>"; };
+		D159958C29752D6000C3B72A /* CDPassport+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPassport+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D159958D29752D6000C3B72A /* CDPassport+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPassport+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D159958E29752D6000C3B72A /* CDEmployee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDEmployee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D159958F29752D6000C3B72A /* CDEmployee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDEmployee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D159959529752DE800C3B72A /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		D159959729752E2900C3B72A /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
+		D159959A2975310300C3B72A /* EmployeeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRepository.swift; sourceTree = "<group>"; };
+		D159959C2975311800C3B72A /* PassportRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportRepository.swift; sourceTree = "<group>"; };
+		D159959E297531D600C3B72A /* BaseReposittrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseReposittrey.swift; sourceTree = "<group>"; };
+		D15995A02975681300C3B72A /* EmployeeManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +82,65 @@
 			children = (
 				D1599570297527FA00C3B72A /* AppDelegate.swift */,
 				D1599572297527FA00C3B72A /* SceneDelegate.swift */,
-				D1599574297527FA00C3B72A /* ViewController.swift */,
-				D1599576297527FA00C3B72A /* Main.storyboard */,
+				D1599599297530DC00C3B72A /* Extensions */,
+				D15995892975285800C3B72A /* CoreDataSupportFile */,
+				D159959429752DC400C3B72A /* Model */,
+				D15995872975282600C3B72A /* Controller */,
+				D15995882975283400C3B72A /* View */,
 				D159957C297527FC00C3B72A /* Assets.xcassets */,
 				D159957E297527FC00C3B72A /* LaunchScreen.storyboard */,
 				D1599581297527FC00C3B72A /* Info.plist */,
 				D1599579297527FA00C3B72A /* OneToOneRelationDatabase.xcdatamodeld */,
 			);
 			path = OneToOneRelationDatabase;
+			sourceTree = "<group>";
+		};
+		D15995872975282600C3B72A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1599574297527FA00C3B72A /* CreateEmployeeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D15995882975283400C3B72A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1599576297527FA00C3B72A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D15995892975285800C3B72A /* CoreDataSupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				D159958A2975288B00C3B72A /* PersistanceStorage.swift */,
+				D159958C29752D6000C3B72A /* CDPassport+CoreDataClass.swift */,
+				D159958D29752D6000C3B72A /* CDPassport+CoreDataProperties.swift */,
+				D159958E29752D6000C3B72A /* CDEmployee+CoreDataClass.swift */,
+				D159958F29752D6000C3B72A /* CDEmployee+CoreDataProperties.swift */,
+			);
+			path = CoreDataSupportFile;
+			sourceTree = "<group>";
+		};
+		D159959429752DC400C3B72A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D159959529752DE800C3B72A /* Employee.swift */,
+				D159959729752E2900C3B72A /* Passport.swift */,
+				D15995A02975681300C3B72A /* EmployeeManger.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1599599297530DC00C3B72A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D159959E297531D600C3B72A /* BaseReposittrey.swift */,
+				D159959A2975310300C3B72A /* EmployeeRepository.swift */,
+				D159959C2975311800C3B72A /* PassportRepository.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +214,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1599575297527FA00C3B72A /* ViewController.swift in Sources */,
+				D159959029752D6000C3B72A /* CDPassport+CoreDataClass.swift in Sources */,
+				D159959829752E2900C3B72A /* Passport.swift in Sources */,
+				D159958B2975288B00C3B72A /* PersistanceStorage.swift in Sources */,
+				D15995A12975681300C3B72A /* EmployeeManger.swift in Sources */,
+				D159959D2975311800C3B72A /* PassportRepository.swift in Sources */,
+				D1599575297527FA00C3B72A /* CreateEmployeeViewController.swift in Sources */,
+				D159959629752DE800C3B72A /* Employee.swift in Sources */,
+				D159959129752D6000C3B72A /* CDPassport+CoreDataProperties.swift in Sources */,
+				D159959329752D6000C3B72A /* CDEmployee+CoreDataProperties.swift in Sources */,
+				D159959B2975310300C3B72A /* EmployeeRepository.swift in Sources */,
+				D159959229752D6000C3B72A /* CDEmployee+CoreDataClass.swift in Sources */,
 				D1599571297527FA00C3B72A /* AppDelegate.swift in Sources */,
 				D1599573297527FA00C3B72A /* SceneDelegate.swift in Sources */,
 				D159957B297527FA00C3B72A /* OneToOneRelationDatabase.xcdatamodeld in Sources */,
+				D159959F297531D600C3B72A /* BaseReposittrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +389,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.notes.OneToOneRelationDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,9 +419,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.notes.OneToOneRelationDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
